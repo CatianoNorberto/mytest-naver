@@ -3,12 +3,12 @@
 http://res.cloudinary.com/programathor/image/upload/c_fit,h_200,w_200/v1596734174/r8mermop4zj5kd0apxvs.png
 
 
-#Descrição
+# Descrição
 
 O sistema consiste em uma web app para visualização e criação dos navers, possuindo informações como: nomes, idades, cargos, tempo de empresa e projetos que participou.
 
 
-#Tecnologias
+# Tecnologias
 
 ##Backend
 
@@ -18,18 +18,18 @@ O sistema consiste em uma web app para visualização e criação dos navers, po
 . Sequelize
 . MySql
 
-##Frontend
+## Frontend
 
 . React.js
 . Axios
 . Rockeseat/unform
 . Yup
 
-#Como usar
+# Como usar
 
 . git clone https://github.com/CatianoNorberto/mytest-navers.git
 
-##Backend
+## Backend
 
 - cd backend.
 - code . ou abra a pasta backend no editor de texto.
@@ -40,7 +40,7 @@ abra a pasta Dump-BD, e importe o arquivo navers.sql para o banco de dados
 `**navers**` que acabaras de criar no passo anterior.
 - execute yarn dev ou npm run dev para startar o servidor
 
-##Frontend
+## Frontend
 
 - cd frontend
 - code . ou abra a pasta frontend no editor de texto
