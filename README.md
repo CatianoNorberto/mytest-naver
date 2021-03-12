@@ -27,7 +27,7 @@ O sistema consiste em uma web app para visualização e criação dos navers, po
 
 # Como usar
 
-. git clone https://github.com/CatianoNorberto/mytest-navers.git
+. git clone https://github.com/CatianoNorberto/mytest-naver.git
 
 ## Backend
 
