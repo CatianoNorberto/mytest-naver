@@ -1,7 +1,7 @@
 # mytest-naver
-
-http://res.cloudinary.com/programathor/image/upload/c_fit,h_200,w_200/v1596734174/r8mermop4zj5kd0apxvs.png
-
+<p align="center" >
+ <img src= "http://res.cloudinary.com/programathor/image/upload/c_fit,h_200,w_200/v1596734174/r8mermop4zj5kd0apxvs.png"/>
+</p>
 
 # Descrição
 
@@ -10,7 +10,7 @@ O sistema consiste em uma web app para visualização e criação dos navers, po
 
 # Tecnologias
 
-##Backend
+## Backend
 
 . Node.js
 . Express
