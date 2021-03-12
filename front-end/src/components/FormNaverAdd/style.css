@@ -1,0 +1,138 @@
+.formnaver-container-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.formnaver-header-add {
+  width: 60%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.formnaver-img {
+  width: 100%;
+}
+
+.formnaver-img img {
+  height: 19.8px;
+  width: 11.67px;
+  color: #000000;
+
+  margin-right: 16px;
+}
+
+.formnaver-img strong {
+  font-size: 24px;
+}
+
+.form-add {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+}
+
+.flex-group-add {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-group-add div {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.flex-group-add div label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.flex-group-add div label input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+}
+
+.form-add button {
+  margin-left: auto;
+  width: 176px;
+  height: 40px;
+  color: #fff;
+  background-color: #000000;
+  margin-top: 30px;
+}
+
+.modals-container {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.modals-container strong {
+  margin-bottom: 30px;
+}
+.infos-button {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.infos-button button {
+  height: 40px;
+  width: 126px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.infos-button > button {
+  margin-right: 20px;
+  background: #fff;
+  color: #000000;
+}
+.infos-button > button + button {
+  background: #000000;
+  color: #fff;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.modal-container strong {
+  margin-bottom: 30px;
+}
+
+.modal-container span {
+  margin-bottom: 20px;
+}
+
+.info-close {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-group-add {
+    flex-direction: column;
+  }
+
+  .flex-group-add div {
+    width: 100%;
+  }
+
+  .formnaver-header-add {
+    width: 100%;
+  }
+  .form-add button {
+    width: 100%;
+  }
+}

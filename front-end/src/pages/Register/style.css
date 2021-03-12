@@ -1,0 +1,56 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 660px;
+  border: 1px solid #212121;
+}
+.cards img {
+  margin-top: 40px;
+}
+
+.register-inp form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 22px;
+}
+
+.register-inp form input {
+  width: 600px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.register-inp form button {
+  width: 600px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #212121;
+  justify-content: center;
+}
+
+.register-inp input {
+  width: 600px;
+  height: 40px;
+}
+
+.link {
+  margin-top: 10px;
+}
+
+.link a {
+  color: black;
+}

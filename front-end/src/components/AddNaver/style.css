@@ -1,0 +1,43 @@
+.addnaver {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.addnaver a {
+  text-decoration: none;
+}
+
+.addnaver h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #212121;
+}
+
+.addnaver button {
+  height: 40px;
+  width: 176px;
+  background: #212121;
+  /* color: #ffffff; */
+}
+
+.addnaver button a {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .addnaver {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .addnaver button {
+    height: 40%;
+    width: 30%;
+  }
+}

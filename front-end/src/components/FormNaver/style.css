@@ -1,0 +1,105 @@
+.formnaver-container-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.formnaver-header-edit {
+  width: 60%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.formnaver-img-edit {
+  width: 100%;
+}
+
+.formnaver-img-edit img {
+  height: 19.8px;
+  width: 11.67px;
+  color: #000000;
+
+  margin-right: 16px;
+}
+
+.formnaver-img-edit strong {
+  font-size: 24px;
+}
+
+.form-edit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+}
+
+.flex-group-edit {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-group-edit div {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.flex-group-edit div label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.flex-group-edit div label input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+}
+
+.form-edit button {
+  margin-left: auto;
+  width: 176px;
+  height: 40px;
+  color: #fff;
+  background-color: #000000;
+  margin-top: 30px;
+}
+
+.moda-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.moda-container strong {
+  margin-bottom: 30px;
+}
+
+.moda-container span {
+  margin-bottom: 20px;
+}
+
+.inf-close {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-group-edit {
+    flex-direction: column;
+  }
+
+  .flex-group-edit div {
+    width: 100%;
+  }
+
+  .formnaver-header-edit {
+    width: 100%;
+  }
+  .form-edit button {
+    width: 100%;
+  }
+}
